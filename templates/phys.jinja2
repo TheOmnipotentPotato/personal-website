@@ -7,12 +7,12 @@
 
 <body>
     <div class='nav-bar'>
-        <a href='/'><img src="https://img.icons8.com/material-rounded/24/000000/home.png"/> Home</a>
+        <a class='active' href='/'><img src="https://img.icons8.com/material-rounded/24/000000/home.png"/> Home</a>
         <a href="/about"><img src="https://img.icons8.com/material-sharp/24/000000/about.png"/> About</a>
-        <a href="/chem"><img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-flask-advertising-kiranshastry-solid-kiranshastry.png"/> Chemistry</a>
-        <a class='active' href="/phys"><img src="https://img.icons8.com/ios-glyphs/30/000000/rocket.png"/> Physics</a>            
-        <a href='/math'><img src="https://img.icons8.com/material-rounded/24/000000/math.png"/> Math</a>
-    </div>   
+       <!-- <a href="/chem"><img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-flask-advertising-kiranshastry-solid-kiranshastry.png"/> Chemistry</a> -->
+        <a href="/phys"><img src="https://img.icons8.com/ios-glyphs/30/000000/rocket.png"/> Physics</a>            
+       <!-- <a href='/math'><img src="https://img.icons8.com/material-rounded/24/000000/math.png"/> Math</a> -->
+    </div>
     <div class='simulation-container'>
       <iframe name='sim-1' class='phys-sim' src='/phys_ballistic'></iframe>
       <div class='sim-form'>
@@ -51,7 +51,15 @@
         </p>
       </div>
     </div>
+    <footer>
+        <p> This is a footer that does footer things, like link my twitter page. Also it fills the requirment for a footer on this project.</p>
+        <span>
+            <a href='https://twitter.com/TheOmnipotentP1' target='_blank' rel='noreferrer noopener'><img class='footer-img' src="https://img.icons8.com/ios-filled/50/000000/twitter-circled--v1.png"/></a>
+            <a href='https://www.instagram.com/nickodemus.j/?hl=en' target='_blank' rel='noreferrer noopener' ><img class='footer-img' src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png"/></a>
+        </span>
+    </footer>
     <script>
       document.getElementById('initial-height').defaultValue = '0'
     </script>
+    <script src='static/js/textBlockOpacity.js'></script>
 </body>
